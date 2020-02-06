@@ -4,7 +4,7 @@ console.log("Begin reading file");
 fs.readFile("input2.txt", function(err,data){
 	if (err) return err;
 	console.log(data.toString());
-	console.log("Finish reading file");
+	console.log("Finish reading file haha");
 	console.log("Begin appending File...");
 	fs.appendFile("input2.txt","I am appending something", (err)=>{
 		if (err) return err;
